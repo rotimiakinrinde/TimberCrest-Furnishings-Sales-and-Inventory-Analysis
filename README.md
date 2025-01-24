@@ -10,7 +10,7 @@ The primary objectives of this analysis are to:
 
 1. Understand sales performance across different product categories and customer segments.
 2. Identify high-performing and underperforming products to optimize inventory management.
-3. Analyze customer orders and geographic trends to improve sales strategies.
+3. Analyse customer orders and geographic trends to improve sales strategies.
 4. Provide actionable recommendations to enhance business profitability and operational efficiency.
 
 ## Key Insights
