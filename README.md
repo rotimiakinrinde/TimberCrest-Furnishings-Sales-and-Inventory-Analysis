@@ -15,9 +15,9 @@ The primary objectives of this analysis are to:
 
 ## Key Insights
 
-For this analysis, the Entity-Relationship Diagram (ERD) is critical for structuring and understanding the relationships between the three key tables Products, Orders, and PropertyInfo in the dataset. The ERD visually represents how the data entities (tables) connect. 
+For this analysis, the Entity-Relationship Diagram (ERD) is critical for structuring and understanding the relationships between the dataset's three key tables: Products, Orders, and PropertyInfo. The ERD visually represents how the data entities (tables) connect. 
 
-The Products table provides details about items sold, including categories, names, and prices. The Orders table links products to the properties that placed the orders, tracking quantities and dates. The PropertyInfo table provides geographic information about where each property is located.
+The Products table details items sold, including categories, names, and prices. The Orders table links products to the properties that placed the orders, tracking quantities and dates. The PropertyInfo table provides geographic information about where each property is located.
 
 However, the relationships (e.g., ProductID linking Products and Orders, and PropertyID linking Orders and PropertyInfo) allow us to merge and analyze these datasets comprehensively.
 The ERD ensures the correct implementation of SQL joins to extract meaningful insights. The ERD ensures clear connections between tables to answer key business questions and reduces the complexity of understanding raw data by organizing it into meaningful relationships, enabling the analysis of trends, customer behaviour, and inventory performance.
@@ -27,9 +27,11 @@ The "Furnishings" category has the highest number of products (26), followed by 
 A total of 10,096 products have been ordered, reflecting strong overall demand but requiring further breakdown to identify trends by category and location.
 ![SALES PERFORMANCE](https://github.com/user-attachments/assets/59948fca-77bd-47a5-a9d3-12574f272111)
 
-The analysis indicates "Furnishings" category has the highest average price ($83.65), followed by "Public Areas" ($58.62), indicating premium pricing opportunities.
-The top 5 most expensive products include: Bed (King): $300, Bed (Double): $250, Sofa: $215, Leaf Blower: $202
-![Most Expensive products](https://github.com/user-attachments/assets/6820e350-76f3-44c0-847c-9639c2af9fa2)
+The analysis indicates that the "Furnishings" category has the highest average price ($83.65), followed by "Public Areas" ($58.62), indicating premium pricing opportunities.
+The top 5 most expensive products include: Bed (King): $300, Bed (Double): $250, Sofa: $215, Leaf Blower: $202 and Television: $200
+![Top 5](https://github.com/user-attachments/assets/d835a13c-088b-46a5-8135-e6310e10284d)
+
+
 
 This analysis also identifies Philadephia(551), Kansas City(545) and Chicago(539) with the highest orders and also indicates TimberCrest has a presence in diverse locations such as New York, Cincinnati, Portland, Seattle, and Las Vegas. This geographic diversity however requires tailored strategies for regional preferences.
 Cities with the highest order quantities can be targeted for expanded inventory and focused marketing campaigns.
